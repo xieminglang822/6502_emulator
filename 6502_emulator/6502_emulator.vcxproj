@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clock_6502.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="platform_6502.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clock_6502.h" />
     <ClInclude Include="instruction_6502.h" />
     <ClInclude Include="platform_6502.h" />
   </ItemGroup>

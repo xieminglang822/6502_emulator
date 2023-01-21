@@ -21,12 +21,18 @@
     <ClCompile Include="platform_6502.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clock_6502.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="platform_6502.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="instruction_6502.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clock_6502.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

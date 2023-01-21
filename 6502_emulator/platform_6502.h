@@ -51,6 +51,7 @@ private:
 
 public:
 	uint8_t	opcode;	// instruction opcode to be executed
+	void			run();
 
 };
 

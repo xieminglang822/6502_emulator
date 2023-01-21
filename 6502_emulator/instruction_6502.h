@@ -16,5 +16,10 @@ class instruction_6502
 {
 	friend class cpu_6502;
 private:
-	uint8_t _opcode;
+	uint8_t	_opcode;
+	uint8_t	_byte1;
+	uint8_t	_byte2;
+	uint8_t	_len;
+public:
+		virtual	void run() = 0;
 };
